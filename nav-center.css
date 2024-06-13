@@ -6,15 +6,15 @@ body {
 #nav {
     background-color: #312e44f8;
     width: 100%;
-    min-height: 50px;
-    height: 5vh;
+    min-height: 45px;
+    height: 4vh;
     border-radius: 0 0 5px 5px;
     display: grid;
     position: fixed;
     top: 0;
     left: 0;
-    grid-template-columns: minmax(50px,10vw) auto minmax(50px,10vw) minmax(50px,10vw);
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: minmax(45px,4vh);
 }
 
 /* BARRA DE NAVEGACION */
@@ -33,17 +33,25 @@ body {
 
 .nav-item-inicio {
     grid-column: 1;
+    border-radius: 2px 5px 5px 5px;
 }
 .nav-item-carrito { 
-    grid-column: 3;
+    grid-column: 2;
 }
 .nav-item-usuario {
-    grid-column: 4;
+    grid-column: 3;
 }
 
 /* LOGOS */
+.nav-item-enlace{
+    width: 70%;
+    max-width: 25px;
+    height: 50%;
+    padding-top: 4px;
+}
 #logo-dron {
     width: 100%;
+    max-width: 25px;
 }
 
 #logo-carro,#logo-user {
@@ -55,11 +63,6 @@ body {
     padding-top: 1px;
 }
 
-.nav-item-enlace{
-    width: 70%;
-    height: 60%;
-    padding-top: 4px;
-}
 
 #presentacion {
     margin-top: 10vh;

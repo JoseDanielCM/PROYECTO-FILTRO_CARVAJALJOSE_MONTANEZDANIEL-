@@ -1,25 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="LOGO.png">
     <link rel="stylesheet" href="login_styles.css">
-    <title>Login</title>
+    <link rel="stylesheet" href="nav-center.css">
+    <title>Registro</title>
+    <style>
+        .nav-item-usuario {
+            grid-column: 3;
+            background-color: #454360;
+            border-radius: 2px 5px 5px 5px;
+        }
+    </style>
 </head>
 <body>
+    <nav id="nav">
+        <div class="nav-item nav-item-inicio">
+            <a class="nav-item-enlace" href="index.html">
+                <img id="logo-dron" src="/IMAGENES/LOGO.png" alt="Logo">
+            </a>
+            <span>Inicio</span>
+        </div>
+
+        <div class="nav-item nav-item-carrito">
+            <a class="nav-item-enlace" href="index.html">
+                <img id="logo-carro" src="/IMAGENES/CARRITO.png" alt="carrito">
+            </a>
+            <span>Carrito</span>
+        </div>
+        <div class="nav-item nav-item-usuario">
+            <a class="nav-item-enlace" href="login.html">
+                <img id="logo-user" src="/IMAGENES/USUARIO.png" alt="user">
+            </a>
+            <span>Usuario</span>
+        </div>
+    </nav>
     <main>
-        <h1>LOGIN</h1>
+        <h1>Registrarse</h1>
         <hr>
         <form action="index.html">
             <input type="text" name="user" id="user" placeholder="Nombre de usuario">
             <input type="email" name="email" id="email" placeholder="Correo electrónico">
-            <input type="month" name="edad" id="">
-            <input type="text" name="" id="">
-            <input type="text" name="" id="">
-            <input type="text" name="" id="">
-            
+            <input type="password" name="password" id="password" placeholder="Contraseña">
+            <input type="submit" name="enviar" id="enviar">
         </form>
+        <span id="separador">o</span>
+        <a href="//google.com" id="login-google">
+            <div id="contenedor-logo">
+                <img id="icono-de-google" src="/IMAGENES/google-logo.png" alt="icono de google">
+            </div>
+            <div id="contenedor-texto">
+                <span id="Texto-login-google">Continuar con Google</span>
+            </div>
+        </a>
 
     </main>
 </body>
