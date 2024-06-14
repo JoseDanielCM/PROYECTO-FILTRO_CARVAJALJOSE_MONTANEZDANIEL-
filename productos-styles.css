@@ -1,4 +1,7 @@
-#text-categorias {
+
+/* CATEGORIAS */
+
+.subtitulos {
     text-align: center;
     font-size: 25px;
 }
@@ -6,11 +9,12 @@
 #clasificacion-category {
     margin: 10px 7.5vw 10px;
     width: 85vw;
-
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 15px;
+    text-decoration: none;
+
 }
 .category-article {
     border: 4px solid #433d66;
@@ -19,12 +23,17 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    font-size: 13px;
+    font-size: 16px;
 }
 
 .Imagenes-categorias {
     width: 100%;
 }
 
+section[id="clasificacion-category"] > a {
+    text-decoration: none;
+    color: white;
+}
 
+/* -------------------------------------------------------------- */
 
