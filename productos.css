@@ -1,0 +1,30 @@
+#text-categorias {
+    text-align: center;
+    font-size: 25px;
+}
+
+#clasificacion-category {
+    margin: 10px 7.5vw 10px;
+    width: 85vw;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
+}
+.category-article {
+    border: 4px solid #433d66;
+    background-color: #252043;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 13px;
+}
+
+.Imagenes-categorias {
+    width: 100%;
+}
+
+
+
