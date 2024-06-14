@@ -3,7 +3,7 @@
 
 .subtitulos {
     text-align: center;
-    font-size: 25px;
+    font-size: 7vw;
 }
 
 #clasificacion-category {
@@ -26,6 +26,11 @@
     font-size: 16px;
 }
 
+.texto-nav-links {
+    margin: 10px 0 2px;
+    font-size: 4vw;
+}
+
 .Imagenes-categorias {
     width: 100%;
 }
@@ -35,5 +40,60 @@ section[id="clasificacion-category"] > a {
     color: white;
 }
 
-/* -------------------------------------------------------------- */
+/* ------------------------------PRODUCTOS-------------------------------- */
 
+main > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.productos {
+    text-align: center;
+    margin-bottom: 50px;
+    text-decoration: none;
+}
+
+.producto1 {
+    background-image: url(/IMG-PRODUCTOS/FONDO.avif);
+}
+
+.producto2{
+    background-image: url(/IMG-PRODUCTOS/FONDO1.webp);
+
+}
+
+.producto3{
+    background-image: url(/IMG-PRODUCTOS/FONDO3.webp);
+
+}
+
+.producto4{
+    background-image: url(/IMG-PRODUCTOS/FONDO4.webp);
+
+}
+
+.Degradado-productos-izquierda{
+    background: linear-gradient(to left, #141414,transparent 80%);
+    display: grid;
+    grid-template-columns: 50vw 1fr;
+}
+
+.Degradado-productos-derecha{
+    background: linear-gradient(to right, #141414,transparent 80%);
+    display: grid;
+    grid-template-columns: 1fr 50vw;
+}
+
+.imagenes-productos {
+    width: 45vw;
+    margin: 20px auto;
+}
+
+.nombre-producto {
+    margin: 45px 0 10px;
+    font-size: 5vw;
+}
+
+.precios-productos {
+    font-size: 3vw;
+}
