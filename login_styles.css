@@ -11,7 +11,7 @@ body {
 }
 
 main {
-    margin-top: 30vh;
+    margin-top:30vh;
     box-sizing: border-box;
     background-color: #0b09197f;
     border: 2px solid #a34ebbae;
@@ -46,6 +46,7 @@ input {
     width: 100%;
     background-color: #0b091941;
     border: 1px solid rgb(198, 96, 216);
+    color: white;
 }
 
 input::placeholder {

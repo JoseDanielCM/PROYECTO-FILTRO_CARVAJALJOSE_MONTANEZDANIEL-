@@ -28,7 +28,7 @@
 
 .texto-nav-links {
     margin: 10px 0 2px;
-    font-size: 4vw;
+    font-size: 4.3vw;
 }
 
 .Imagenes-categorias {
@@ -42,7 +42,7 @@ section[id="clasificacion-category"] > a {
 
 /* ------------------------------PRODUCTOS-------------------------------- */
 
-main > a {
+main > article > a {
     text-decoration: none;
     color: inherit;
 }
@@ -50,7 +50,6 @@ main > a {
 .productos {
     text-align: center;
     margin-bottom: 50px;
-    text-decoration: none;
 }
 
 .producto1 {
