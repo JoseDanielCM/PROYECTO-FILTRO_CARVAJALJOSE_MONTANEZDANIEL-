@@ -59,16 +59,20 @@ main > a {
 
 .producto2{
     background-image: url(/IMG-PRODUCTOS/FONDO1.webp);
+    background-size: cover;
+    background-position: top;
 
 }
 
 .producto3{
     background-image: url(/IMG-PRODUCTOS/FONDO3.webp);
-
+    background-size: cover;
+    background-position: top;
 }
 
 .producto4{
     background-image: url(/IMG-PRODUCTOS/FONDO4.webp);
+    background-size: cover;
 
 }
 
