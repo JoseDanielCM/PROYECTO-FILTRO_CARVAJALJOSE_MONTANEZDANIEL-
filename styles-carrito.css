@@ -5,7 +5,7 @@ header{
 }
 
 header > h1 {
-    margin-top: 11.5vh;
+    margin-top: 7.2vh;
     grid-column: 1;
     margin-left: 7.5vw;
     font-size: 7vw;
@@ -25,7 +25,7 @@ header > div > img{
     border-radius: 50%;
     grid-column: 2;
     margin: auto;
-    margin-top: 10vh;
+    margin-top: 6vh;
 }
 
 #header-icono-carrito-cantidad{
@@ -117,13 +117,13 @@ header > div > img{
 #section-item-total{
     grid-column: 1;
     color: #978497;
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 #section-item-precio{
     grid-column: 2;
     text-align: end;
-    padding-right: 10px;
+    padding-right: 20px;
 }
 
 #section-item-compra{
@@ -150,7 +150,7 @@ header > div > img{
     }
 
 footer{
-    margin-top: 10vh;
+    margin-top: 5vh;
 }
 
 /* CSS PARA VERSION NO COMPATIBLE */
