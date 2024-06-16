@@ -3,9 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="nav-center.css">
+    <link rel="stylesheet" href="styles-carrito.css">
+    <title>Carrito</title>
+    <style>
+        .nav-item-carrito {
+            grid-column: 2;
+            background-color: #454360;
+            border-radius: 2px 5px 5px 5px;
+        }
+    </style>
 </head>
 <body>
+    <nav id="nav">
+        <div class="nav-item nav-item-inicio">
+            <a class="nav-item-enlace" href="index.html">
+                <img id="logo-dron" src="IMAGENES-NAV/LOGO.png" alt="Logo">
+            </a>
+            <span>Inicio</span>
+        </div>
+
+        <div class="nav-item nav-item-carrito">
+            <a class="nav-item-enlace" href="carrito.html">
+                <img id="logo-carro" src="IMAGENES-NAV/CARRITO.png" alt="carrito">
+            </a>
+            <span>Carrito</span>
+        </div>
+        <div class="nav-item nav-item-usuario">
+            <a class="nav-item-enlace" href="login.html">
+                <img id="logo-user" src="IMAGENES-NAV/USUARIO.png" alt="user">
+            </a>
+            <span>Usuario</span>
+        </div>
+    </nav>
+
+    <main>
+        <header>
+            <h1>Mi carrito</h1>
+            <div id="header-icono-carrito">
+                <div id="header-icono-carrito-cantidad">2</div>
+                <img src="IMAGENES-NAV/CARRITO.png" alt="header-icono-carrito">
+            </div>
+        </header>
+
+        <section id="list-carrito-items">
+            <div class="back-trash">
+                <img width="50pxpx" src="trash-can.png" alt="Icono-basura">
+                <article class="carrito-article">
+                    <img class="Imagenes-article" src="IMG_CATEGORY/CARRERA.JPG" alt="Imagen dron de Carrera">
+                    <span class="texto-nav-links">DRONES DE CARRERAS</span>
+                </article>
+            </div>
+
+            <div class="back-trash">
+                <article class="carrito-article">
+                    <img class="Imagenes-article" src="IMG_CATEGORY/CAMARA.jpg" alt="Imagen dron de Carrera">
+                    <span class="texto-nav-links">DRONES CON CÁMARA</span>
+                </article>
+            </div>
+
+            <div class="back-trash">
+                <article class="carrito-article">
+                    <img class="Imagenes-article" src="IMG_CATEGORY/NIÑOS.jpg" alt="Imagen dron de Carrera">
+                    <span class="texto-nav-links">DRONES PARA NIÑOS</span>
+                </article>
+            </div>
+
+            <div class="back-trash">
+                <article class="carrito-article">
+                    <img class="Imagenes-article" src="IMG_CATEGORY/AGRICULTURA.jpg" alt="Imagen dron de Carrera">
+                    <span class="texto-nav-links">DRONES PARA AGRICULTURA</span>
+                </article>
+            </div>
+
+        </section>
     
+    </main>
 </body>
 </html>
