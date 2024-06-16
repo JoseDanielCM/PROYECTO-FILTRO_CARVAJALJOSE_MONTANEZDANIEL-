@@ -71,8 +71,12 @@ body {
     margin-top: 12vh;    
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center;   
 }
+
+    #presentacion p{
+        font-size: 4.3vw;
+    }
 
 #logo-header {
     width: 70%;
