@@ -1,6 +1,4 @@
-
 /* CATEGORIAS */
-
 .subtitulos {
     text-align: center;
     font-size: 7vw;
@@ -100,3 +98,5 @@ main > article > a {
 .precios-productos {
     font-size: 3vw;
 }
+
+/* CSS PARA VERSION NO COMPATIBLE */

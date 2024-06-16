@@ -58,7 +58,7 @@ body {
     #select-cantidad {
             box-sizing: border-box;
             display: grid;
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: 1.5fr 1fr 1.5FR;
             width: 20vw;
             text-align: center;
             font-size: 5vw;
@@ -69,11 +69,6 @@ body {
             background-color: white;
             margin: 0 20px;
             
-    }
-
-    div[id="select-cantidad"] span ~ span {
-        border-left: 2px solid gray ;
-    
     }
 
 #estrellas {

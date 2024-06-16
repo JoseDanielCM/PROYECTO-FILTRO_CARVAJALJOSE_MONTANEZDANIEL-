@@ -1,18 +1,14 @@
-
-
-main {
-    margin-top: 10vh;
-}
-
 header{
     display: grid;
-    grid-template-columns: 80vw 1fr;
+    grid-template-columns: 72vw 1fr;
     grid-template-rows: 1fr;
 }
 
 header > h1 {
+    margin-top: 11.5vh;
     grid-column: 1;
-    margin-left: 20px;
+    margin-left: 7.5vw;
+    font-size: 7vw;
 }
 
 header > div > img{
@@ -29,6 +25,7 @@ header > div > img{
     border-radius: 50%;
     grid-column: 2;
     margin: auto;
+    margin-top: 10vh;
 }
 
 #header-icono-carrito-cantidad{
@@ -49,7 +46,7 @@ header > div > img{
 .back-trash{
     background-color: white;
     position: relative;
-    z-index: -2;
+    z-index: 2;
 }
 
 .back-trash > img{
@@ -57,7 +54,7 @@ header > div > img{
     position: absolute;
     top: 70%;
     left: 40%;
-    z-index: -1;
+    z-index: 1;
     padding-bottom: 50px;
 }
 
@@ -83,12 +80,14 @@ header > div > img{
     height: 100%;
     text-align: center;
     position: relative;
+    z-index: 3;
     /* PARA TRANSICION */
     /* bottom:; */
 }
 
     .Texto-productos{
-        padding-top: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -153,3 +152,5 @@ header > div > img{
 footer{
     margin-top: 10vh;
 }
+
+/* CSS PARA VERSION NO COMPATIBLE */

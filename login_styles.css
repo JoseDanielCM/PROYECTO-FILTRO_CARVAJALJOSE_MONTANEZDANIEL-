@@ -1,6 +1,9 @@
+.pag-movil{
+    background-color: transparent;
+    height: 100vh;
+}
+
 body {
-    margin: 0;
-    padding: 0;
     background-image: url(/IMAGENES-NAV/FONDO-LOG.jpg);
     background-position: top;
     height: 100vh;
@@ -11,12 +14,12 @@ body {
 }
 
 main {
-    margin-top:30vh;
+    margin-top:10vh;
     box-sizing: border-box;
     background-color: #0b09197f;
     border: 2px solid #a34ebbae;
     width: 80vw;
-    min-height: 280px;
+    min-height: 270px;
     height: 33vh;  
     display: flex;
     flex-direction: column;
@@ -101,3 +104,5 @@ input[type="submit"] {
     font-size: 0.7em;
     text-decoration: none;
 }
+
+/* CSS PARA VERSION NO COMPATIBLE */
