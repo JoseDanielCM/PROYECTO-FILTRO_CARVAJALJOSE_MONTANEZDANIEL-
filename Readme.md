@@ -8,14 +8,14 @@
 ### General Info
 ***
 This is a project to create an e-commerce website focused on drones, the pages are designed exclusively for mobile devices,focused on the sale of drones of different categories and prices.
-### status
+### Status
 The **principal structure** of the project is **finished**, except for adding some extra pages, such as a section where data is requested to make the purchase, and a section where once registered, the profile data and configurations appear, apart from that, the layout is finished, although it is not functional because at the moment *javascript has not been implemented* to make it functional, but it is planned to implement it in the future.
-### explanation
+### Explanation
 ***
 **Design and explanation**
 ***
 
-* ![Pagina_inicio_presentacion](imagenes-readme\1.png)
+* ![Pagina_inicio_presentacion](C:\Users\jose daniel\OneDrive\Escritorio\HTML-PROYECTO\HTML-PROYECTO\imagenes-readme\1.png)
 ## Technologies
 ***
 A list of technologies used within the project:
