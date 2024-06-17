@@ -14,7 +14,7 @@ The **principal structure** of the project is **finished**, except for adding so
 ***
 **Design and explanation**
 ***
-* ![alt text](imagenes-readme\image.png)
+![alt text](image.png)
 ## Technologies
 ***
 A list of technologies used within the project:
