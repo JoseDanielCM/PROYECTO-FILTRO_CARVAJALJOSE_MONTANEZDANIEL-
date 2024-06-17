@@ -7,11 +7,15 @@
 
 ### General Info
 ***
-This is a project to create a website for an e-commerce based on drones, where web pages for mobile are created, based on the sale of drones of different categories and prices.
+This is a project to create an e-commerce website focused on drones, the pages are designed exclusively for mobile devices,focused on the sale of drones of different categories and prices.
 ### status
-The **structure** of the project is **finished**, except for adding some extra pages such as a part where data is requested to make the purchase, and a section where once registered the profile data and configurations appear, leaving this aside, the layout is completed although it is not functional because at this moment *javascript has not been implemented* to make it functional but in the future it is planned to implement it.
+The **principal structure** of the project is **finished**, except for adding some extra pages, such as a section where data is requested to make the purchase, and a section where once registered, the profile data and configurations appear, apart from that, the layout is finished, although it is not functional because at the moment *javascript has not been implemented* to make it functional, but it is planned to implement it in the future.
 ### explanation
-![Image text](https://www.united-internet.de/fileadmin/user_upload/Brands/Downloads/Logo_IONOS_by.jpg)
+***
+**Design and explanation**
+***
+
+* ![Pagina_inicio_presentacion](imagenes-readme\1.png)
 ## Technologies
 ***
 A list of technologies used within the project:
@@ -20,8 +24,8 @@ A list of technologies used within the project:
 * [Visual_Studio_Code]
 ## installation
 ***
-Para seguir un orden de continuidad adecuado aunque no es necesario, se debería abrir primero el archivo html llamado *index.html* puede ser con la extension de *visual studio code* o ejecutando el archivo html
+To follow a proper continuity order although not necessary, you should first open the html file called *index.html* either with the *Live Server* extension of *visual studio code* or by running the *.html file.*
 
 ## bugs
 ***
-Its a feature not a bug, but since it is a page intended for mobile, if you want to view the page correctly and not the message to test on mobile, you can open it in a computer browser but placing the mobile mode in the inspect section
+Its a feature not a bug, but since it is a page intended for mobile, if you want to view the page correctly and not the message to test on mobile, you can open it in a computer browser, but setting the mobile mode in the inspect section
