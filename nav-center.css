@@ -101,7 +101,7 @@ body {
 /* CSS PARA VERSION NO COMPATIBLE */
 
 .pag-pc {
-    background-image: url(/IMAGENES-NAV/FONDO-LOG.jpg);
+    background-image: url(IMAGENES-NAV/FONDO-LOG.jpg);
     background-position: top;
     height: 100vh;
     display: flex;
