@@ -191,13 +191,13 @@ body {
         }
     }
 
-@media (max-width: 1000px){
+@media (max-width: 1000px)  {
     .pag-pc{
         display: none; 
     }
 }
 
-@media not (max-width: 1000px){
+@media (not (max-width: 1000px)) or (max-height:300px){
     .pag-movil{
         display: none;
     }

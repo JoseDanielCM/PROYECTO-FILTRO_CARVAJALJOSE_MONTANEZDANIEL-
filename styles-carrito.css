@@ -66,9 +66,9 @@ header > div > img{
 }
 
 .back-trash > img{
-    width: 10vw;
+    width: 20%;
     position: absolute;
-    top: 73%;
+    top: 70%;
     left: 40%;
     z-index: 0 ;
 }
