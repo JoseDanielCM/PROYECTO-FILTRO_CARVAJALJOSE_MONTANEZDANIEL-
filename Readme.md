@@ -14,8 +14,7 @@ The **principal structure** of the project is **finished**, except for adding so
 ***
 **Design and explanation**
 ***
-![alt text](image.png)
-* ![Pagina_inicio_presentacion](C:\Users\jose daniel\OneDrive\Escritorio\HTML-PROYECTO\HTML-PROYECTO\imagenes-readme\1.png)
+* ![alt text](imagenes-readme\image.png)
 ## Technologies
 ***
 A list of technologies used within the project:
