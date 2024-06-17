@@ -24,7 +24,6 @@ body {
 
 #detalles-producto {
     width: 100vw;
-    height: 45vh;
     background-color: #2f2238ed;
     position: absolute;
     top: 55vh;
@@ -142,10 +141,10 @@ body {
 
     #carrito-boton{
         width: 55vw;
-        height: 6vh;
+        height: 9vh;
         display: grid;
         grid-template-columns: 12vw 1fr;
-        grid-template-rows: 6vh;
+        grid-template-rows: 10vh;
         background-color: black;
         border-radius: 20px;
     }
