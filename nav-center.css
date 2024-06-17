@@ -1,11 +1,3 @@
-@media not (max-width: 1000px){
-    .pag-movil{
-        display: none;
-        background-color: white;
-        background-image: none;
-    }
-}
-
 body {
     margin: 0;
 }
@@ -107,3 +99,106 @@ body {
 }
 
 /* CSS PARA VERSION NO COMPATIBLE */
+
+.pag-pc {
+    background-image: url(/IMAGENES-NAV/FONDO-LOG.jpg);
+    background-position: top;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#Contenedor-pag-pc {
+    box-sizing: border-box;
+    background-color: #0b09197f;
+    border: 2px solid #a34ebbae;
+    border-radius: 10px;
+    width: 65vw;
+    height: 60vh;  
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    grid-row: 1fr;
+}
+
+    #logo-pc,#texto-pc{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #logo-pc img{
+        width: 100%;
+    }
+
+/* ANIMACION CARGA */
+
+    #cuadro-carga-pc{
+        color: white;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        background-color: #703d7052;
+        border-radius: 30px;
+        width: 25vw;
+        height: 25vw;
+        font-size: 2.5vw;
+        position: absolute;
+        overflow: hidden;
+    }
+
+    #cuadro-carga-pc::before{
+        content: "";
+        background-image: conic-gradient(
+            #c92cc19c 20deg,
+            transparent 120deg
+        );
+
+        width: 150%;
+        height: 150%;
+        position: absolute;
+        z-index: 0;
+        animation: rotate 2s cubic-bezier(1,.12,.43,.99) infinite;
+
+
+    }
+
+    #texto-carga-pc{
+        width: 22.7vw;
+        height: 22.7vw;
+        background-color: #4a294a;
+        z-index: 5;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        box-shadow: inset 25px 25px 55px  #0f020d8c;
+    }
+
+    #texto-carga-pc *{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    @keyframes rotate {
+        0%{
+            transform:rotate(0deg)
+        }
+        100%{
+            transform:rotate(-360deg)
+        }
+    }
+
+@media (max-width: 1000px){
+    .pag-pc{
+        display: none; 
+    }
+}
+
+@media not (max-width: 1000px){
+    .pag-movil{
+        display: none;
+    }
+}
