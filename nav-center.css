@@ -197,7 +197,7 @@ body {
     }
 }
 
-@media (not (max-width: 1000px)) or (max-height:300px){
+@media (not (max-width: 1000px)) or (max-height:500px){
     .pag-movil{
         display: none;
     }

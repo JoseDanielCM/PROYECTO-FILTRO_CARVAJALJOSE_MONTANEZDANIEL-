@@ -146,7 +146,7 @@ body {
         height: 9vw;
         display: grid;
         grid-template-columns: 12vw 1fr;
-        grid-template-rows: 10vh;
+        grid-template-rows: 10vw;
         background-color: black;
         border-radius: 20px;
     }
